@@ -5,8 +5,8 @@ audio = "C:\\Users\\Neeraja\\Documents\\CSC2526Project\inside_out.wav"
 with sr.AudioFile(audio) as source:
     audio = r.record(source)
 
-IBM_USERNAME = "f3a73821-92e7-45cc-b315-20ad731a79ca"
-IBM_PASSWORD = "PDtoYxoV2Y0b"
+IBM_USERNAME = "username"
+IBM_PASSWORD = "password"
 try:
     print("The audio file contains: " + r.recognize_ibm(audio, username=IBM_USERNAME, password=IBM_PASSWORD))
 except sr.UnknownValueError:
