@@ -11,7 +11,7 @@ service = ToneAnalyzerV3(
      ## url is optional, and defaults to the URL below. Use the correct URL for your region.
      url='https://gateway.watsonplatform.net/tone-analyzer/api',
      version='2017-09-21',
-     iam_apikey= 'hTpIqPFChASc2fbBtZ1Of97ufSDQ_XBxSJL8xgazrQud')
+     iam_apikey= 'api_key')
 
 #Checks that the input file exists, returns an error otherwise 
 def file_validifier(parser,arg):
