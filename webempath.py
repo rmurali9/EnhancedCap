@@ -26,7 +26,3 @@ function analyzeWav(apiKey, wavFilename) {
   });
 }
 """)
-
-ctx.call("analyzeWav", 'GGMjyLNHsT37ny5CE8J_2fGIF5kiEbruyNoIuCAD9hk','C:/Users/aata/Desktop/output10.wav')
-
-
